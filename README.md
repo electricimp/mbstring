@@ -1,12 +1,12 @@
 # mbstring
 
+Author: Aron Steg
+
 **mbstring** implements a multibyte string class that can read, write and manipulate [UTF-8](http://en.wikipedia.org/wiki/UTF-8) strings.
 
 **To add this library to your project, add** `#require "mbstring.class.nut:1.0.0"` **to the top of your device code**
 
-Author: Aron Steg
-
-It supports the following operations:
+The class supports the following operations:
 
 - *foreach()* &ndash; Loops over each multibyte character (delivered as a series of strings).
 - *len()* &ndash; Returns the number of multibyte characters not the byte length.
