@@ -4,6 +4,8 @@
 
 class mbstring
 {
+    static version = [1, 0, 0]
+    
     _str = null
     
     constructor(str = "")
